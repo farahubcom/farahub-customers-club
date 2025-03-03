@@ -1,9 +1,9 @@
 const { Job } = require('@farahub/framework/foundation');
+const { Doc } = require('@farahub/framework/facades');
 const every = require("lodash/every");
 const trim = require("lodash/trim");
 const startOfDay = require("date-fns/startOfDay");
 const endOfDay = require("date-fns/endOfDay");
-const Doc = require("@fhb/facades/Doc");
 const { getDeliverySendTime } = require("../utils");
 
 class CreateBirthdayDeliveries extends Job {
