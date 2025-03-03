@@ -1,0 +1,23 @@
+{
+    "name": "@farahub/customers-club",
+    "version": "1.0.4",
+    "description": "Customers club module for the Farahub framework",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/farahubcom/farahub-customers-club.git"
+    },
+    "license": "MIT",
+    "main": "src/module.js",
+    "files": [
+        "src/**/*"
+    ],
+    "dependencies": {
+        "@farahub/framework": "^1.0.3",
+        "@farahub/sms": "^1.0.0",
+        "lodash": "^4.17.21",
+        "mongoose": "^6.3.1",
+        "mongoose-lean-virtuals": "^0.9.0",
+        "nodemailer": "^6.8.0"
+    },
+    "devDependencies": {}
+}
